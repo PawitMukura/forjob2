@@ -1,0 +1,40 @@
+body{
+    margin: 0px;
+    padding-left: 1px;
+    
+}
+.box1{
+    width: 200px;
+   display: flex;
+   justify-content: flex-start;
+   align-items: flex-start;
+    margin-top: 0px;
+    border: 2px solid black;
+    border-bottom: 0px;
+   
+    
+}
+.box1 input{
+    margin-bottom: 500px;
+}
+
+.box2{
+    display: flex;
+    flex-grow: 1;
+    border: 2px solid black;
+    border-bottom: 0px;
+}
+.box2 select{
+ height: 20px;
+}
+.box3{
+    width: 300px;
+    border: 2px solid black;
+    border-bottom: 0px;
+}
+.container{
+    display: flex;
+}
+.box3{
+    text-align: left;
+}
